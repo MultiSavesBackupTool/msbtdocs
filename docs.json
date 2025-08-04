@@ -6,6 +6,9 @@
     "primary": "#346DDB"
   },
   "favicon": "/favicon.svg",
+  "icons": {
+    "library": "lucide"
+  },
   "navigation": {
     "dropdowns": [
       {
@@ -36,28 +39,6 @@
             ]
           }
         ]
-      },
-      {
-        "dropdown": "API reference",
-        "description": "Reference for the API",
-        "icon": "terminal",
-        "groups": [
-          {
-            "dropdown": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "dropdown": "API Points",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
       }
     ],
     "global": {
@@ -81,8 +62,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/assets/msbt_logo.png",
+    "dark": "/assets/msbt_logo.png"
   },
   "contextual": {
     "options": [

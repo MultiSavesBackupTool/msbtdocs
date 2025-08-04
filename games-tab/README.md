@@ -1,6 +1,6 @@
 # Games Tab
 
-<img src="../.gitbook/assets/image (1).png" alt="" />
+<img src="assets/image (1).png" alt="" />
 
 There's searching, sorting, global actions, adding a game, and scanning installed games.
 
