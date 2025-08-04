@@ -1,0 +1,101 @@
+I{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "aspen",
+  "name": "Multi Saves Backup Tool",
+  "colors": {
+    "primary": "#346DDB"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "dropdowns": [
+      {
+        "dropdown": "Guides",
+        "icon": "book",
+        "description": "Set up your documentation",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "How To",
+            "pages": [
+              "how-to/how-do-i-add-a-game",
+              "how-to/how-do-i-edit-a-game"
+            ]
+          },
+          {
+            "group": "Tabs",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "API reference",
+        "description": "Reference for the API",
+        "icon": "terminal",
+        "groups": [
+          {
+            "dropdown": "API documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "dropdown": "API Points",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://mintlify.com/community",
+          "icon": "slack"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "perplexity"
+   ]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://msbt.lukiuwu.xyz",
+      "github": "https://github.com/MultiSavesBackupTool/MSBT"
+    }
+  }
+}

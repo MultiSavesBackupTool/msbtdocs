@@ -1,6 +1,6 @@
 # Manage Game
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<img src="../.gitbook/assets/image (26).png" alt="" />
 
 Disable Game, prevent the backup from running.
 
