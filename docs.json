@@ -66,7 +66,18 @@
 								]
 							}
 						]
-					}
+					},
+                    {
+                        "dropdown": "Changelog",
+                        "icon": "history",
+                        "description": "Updates and changes",
+                        "groups": [{
+                                "group": "Changelog",
+                                "pages": [
+                                    "en/changelog"
+                                ]
+                        }]
+                    }
 				]
 			},
 			{
@@ -104,7 +115,18 @@
 								]
 							}
 						]
-					}
+					},
+                    {
+                        "dropdown": "Журнал изменений",
+                        "icon": "history",
+                        "description": "Новые обновления и улучшения",
+                        "groups": [{
+                                "group": "Журнал изменений",
+                                "pages": [
+                                    "ru/changelog"
+                                ]
+                        }]
+                    }
 				]
 			}
 		]
