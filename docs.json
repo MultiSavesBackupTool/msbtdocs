@@ -13,8 +13,8 @@
       "href": "https://msbt.lukiuwu.xyz"
     },
 	"favicon": {
-      "light": "/dark.png",
-      "dark": "/light.png"
+      "light": "/light.png",
+      "dark": "/dark.png"
     },
 	"icons": {
 		"library": "lucide"
