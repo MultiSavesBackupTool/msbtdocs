@@ -3,9 +3,19 @@
 	"$schema": "https://mintlify.com/docs.json",
 	"name": "Multi Saves Backup Tool",
 	"colors": {
-		"primary": "#346DDB"
+		"primary": "#346DDB",
+        "light": "#346DDB",
+        "dark": "#346DDB"
 	},
-	"favicon": "/icon.png",
+  	"logo": {
+      "light": "/msbt_logo.png",
+      "dark": "/msbt_logo.png",
+      "href": "https://msbt.lukiuwu.xyz"
+    },
+	"favicon": {
+      "light": "/dark.png",
+      "dark": "/light.png"
+    },
 	"icons": {
 		"library": "lucide"
 	},
@@ -131,7 +141,6 @@
 			}
 		]
 	},
-	"logo": "/msbt_logo.png",
     "navbar": {
       "primary": {
         "type": "button",
