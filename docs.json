@@ -94,24 +94,24 @@
 							{
 								"group": "Как это сделать?",
 								"pages": [
-									"ru/kak-eto-sdelat/kak-mne-dobavit-igru",
-									"ru/kak-eto-sdelat/kak-mne-otredaktirovat-igru"
+									"ru/how-to/how-do-i-add-a-game",
+									"ru/how-to/how-do-i-edit-a-game"
 								]
 							},
 							{
 								"group": "Вкладки",
 								"pages": [
-									"ru/vkladki/vkladka-monitoring",
+									"ru/tabs/monitoring-tab",
 									{
 										"group": "Вкладка Игры",
 										"icon": "gamepad",
 										"pages": [
-											"ru/vkladki/vkladka-igry/index",
-											"ru/vkladki/vkladka-igry/dobavit-redaktirovat-igru",
-											"ru/vkladki/vkladka-igry/upravlenie-igroi"
+											"ru/tabs/games-tab/index",
+											"ru/tabs/games-tab/add-edit-game",
+											"ru/tabs/games-tab/manage-game"
 										]
 									},
-									"ru/vkladki/vkladka-nastroiki"
+									"ru/tabs/settings-tab"
 								]
 							}
 						]
