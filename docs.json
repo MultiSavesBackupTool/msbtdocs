@@ -90,7 +90,7 @@
 							{
 								"group": "Вкладки",
 								"pages": [
-									"ru/vkladki/monitoring-tab",
+									"ru/vkladki/vkladka-monitoring",
 									{
 										"group": "Вкладка Игры",
 										"icon": "gamepad",
@@ -100,7 +100,7 @@
 											"ru/vkladki/vkladka-igry/upravlenie-igroi"
 										]
 									},
-									"ru/vkladki/settings-tab"
+									"ru/vkladki/vkladka-nastroiki"
 								]
 							}
 						]
