@@ -1,4 +1,6 @@
-# /gamesdetect
+---
+title: "/gamesdetect"
+---
 
 ## Request
 

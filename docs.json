@@ -112,16 +112,16 @@
 						"groups": [{
 								"dropdown": "API documentation",
 								"pages": [
-									"api-reference/introduction"
+									"api-reference/index",
+                                    "api-reference/general-information"
 								]
 							},
 							{
 								"dropdown": "API Points",
 								"pages": [
-									"api-reference/endpoint/get",
-									"api-reference/endpoint/create",
-									"api-reference/endpoint/delete",
-									"api-reference/endpoint/webhook"
+									"api-reference/api-points/blacklist",
+									"api-reference/api-points/whitelist",
+									"api-reference/api-points/gamesdetect"
 								]
 							}
 						]
@@ -130,10 +130,7 @@
 			}
 		]
 	},
-	"logo": {
-		"light": "/assets/msbt_logo.png",
-		"dark": "/assets/msbt_logo.png"
-	},
+	"logo": "/msbt_logo.png",
 	"contextual": {
 		"options": [
 			"copy",

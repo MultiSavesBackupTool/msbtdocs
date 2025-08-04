@@ -1,4 +1,6 @@
-# Welcome to API docs!
+---
+title: "Welcome to API docs!"
+---
 
 This documentation contains all the API points that MSBT uses.
 

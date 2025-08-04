@@ -1,4 +1,6 @@
-# Settings Tab
+---
+title: "Settings Tab"
+---
 
 <img src="assets/image (2).png" alt="" />
 

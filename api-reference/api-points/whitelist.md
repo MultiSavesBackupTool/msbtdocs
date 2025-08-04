@@ -1,4 +1,6 @@
-# /whitelist
+---
+title: "/whitelist"
+---
 
 ## Request
 

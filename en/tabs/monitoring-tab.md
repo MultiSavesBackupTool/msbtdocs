@@ -1,4 +1,6 @@
-# Monitoring Tab
+---
+title: "Monitoring Tab"
+---
 
 <img src="assets/image.png" alt="" />
 

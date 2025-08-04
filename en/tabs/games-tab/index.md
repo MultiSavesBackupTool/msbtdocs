@@ -1,4 +1,6 @@
-# Games Tab
+---
+title: "Games Tab"
+---
 
 <img src="assets/image (1).png" alt="" />
 

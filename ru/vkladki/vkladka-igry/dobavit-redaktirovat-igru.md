@@ -1,4 +1,6 @@
-# Добавить/редактировать игру
+---
+title: "Добавить/редактировать игру"
+---
 
 <img src="../../assets/image34.png" alt="" /><img src="../../assets/image35.png" alt="" />
 

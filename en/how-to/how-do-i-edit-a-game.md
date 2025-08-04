@@ -1,4 +1,6 @@
-# How do I edit a game?
+---
+title: "How do I edit a game?"
+---
 
 <img src="assets/image (8).png" alt="" />
 

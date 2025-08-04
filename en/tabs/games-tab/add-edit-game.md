@@ -1,4 +1,6 @@
-# Add/Edit Game
+---
+title: "Add/Edit Game"
+---
 
 <img src="assets/image (4).png" alt="" /><img src="assets/image (10).png" alt="" />
 

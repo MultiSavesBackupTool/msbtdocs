@@ -1,4 +1,6 @@
-# Manage Game
+---
+title: "Manage Game"
+---
 
 <img src="assets/image (26).png" alt="" />
 

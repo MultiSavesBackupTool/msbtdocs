@@ -1,4 +1,6 @@
-# How do I add a game?
+---
+title: "How do I add a game?"
+---
 
 <img src="assets/image (3).png" alt="" />
 

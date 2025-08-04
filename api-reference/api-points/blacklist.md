@@ -1,4 +1,6 @@
-# /blacklist
+---
+title: "/blacklist"
+---
 
 ## Request
 

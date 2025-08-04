@@ -1,4 +1,6 @@
-# General information
+---
+title: "General information"
+---
 
 The MSBT API runs on FastAPI and its URL is always `https://msbt.lukiuwu.xyz/api`.
 
