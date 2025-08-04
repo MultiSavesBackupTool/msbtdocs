@@ -1,82 +1,151 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
-  "name": "Multi Saves Backup Tool",
-  "colors": {
-    "primary": "#346DDB"
-  },
-  "favicon": "/favicon.svg",
-  "icons": {
-    "library": "lucide"
-  },
-  "navigation": {
-    "dropdowns": [
-      {
-        "dropdown": "Guides",
-        "icon": "book",
-        "description": "Set up your documentation",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index"
-            ]
-          },
-          {
-            "group": "How To",
-            "pages": [
-              "how-to/how-do-i-add-a-game",
-              "how-to/how-do-i-edit-a-game"
-            ]
-          },
-          {
-            "group": "Tabs",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/assets/msbt_logo.png",
-    "dark": "/assets/msbt_logo.png"
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "perplexity"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "website": "https://msbt.lukiuwu.xyz",
-      "github": "https://github.com/MultiSavesBackupTool/MSBT"
-    }
-  }
+	"$schema": "https://mintlify.com/docs.json",
+	"theme": "aspen",
+	"name": "Multi Saves Backup Tool",
+	"colors": {
+		"primary": "#346DDB"
+	},
+	"favicon": "/favicon.svg",
+	"icons": {
+		"library": "lucide"
+	},
+	"navigation": {
+		"languages": [{
+				"language": "en",
+				"dropdowns": [{
+						"dropdown": "MSBT Docs",
+						"icon": "book",
+						"groups": [{
+								"group": "Getting started",
+								"pages": [
+									"en/index"
+								]
+							},
+							{
+								"group": "How To",
+								"pages": [
+									"en/how-to/how-do-i-add-a-game",
+									"en/how-to/how-do-i-edit-a-game"
+								]
+							},
+							{
+								"group": "Tabs",
+								"pages": [
+									"en/tabs/monitoring-tab",
+									{
+										"group": "Games Tab",
+										"icon": "gamepad",
+										"pages": [
+											"en/tabs/games-tab/index",
+											"en/tabs/games-tab/add-edit-game",
+											"en/tabs/games-tab/manage-game"
+										]
+									},
+									"en/tabs/settings-tab"
+								]
+							}
+						]
+					},
+					{
+						"dropdown": "API reference",
+						"description": "Reference for the API",
+						"icon": "terminal",
+						"groups": [{
+								"dropdown": "API documentation",
+								"pages": [
+									"api-reference/introduction"
+								]
+							},
+							{
+								"dropdown": "API Points",
+								"pages": [
+									"api-reference/endpoint/get",
+									"api-reference/endpoint/create",
+									"api-reference/endpoint/delete",
+									"api-reference/endpoint/webhook"
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"language": "ru",
+				"dropdowns": [{
+						"dropdown": "MSBT Документация",
+						"icon": "book",
+						"groups": [{
+								"group": "Старт",
+								"pages": [
+									"ru/index"
+								]
+							},
+							{
+								"group": "Как это сделать?",
+								"pages": [
+									"ru/kak-eto-sdelat/kak-mne-dobavit-igru",
+									"ru/kak-eto-sdelat/kak-mne-otredaktirovat-igru"
+								]
+							},
+							{
+								"group": "Вкладки",
+								"pages": [
+									"ru/vkladki/monitoring-tab",
+									{
+										"group": "Вкладка Игры",
+										"icon": "gamepad",
+										"pages": [
+											"ru/vkladki/vkladka-igry/index",
+											"ru/vkladki/vkladka-igry/dobavit-redaktirovat-igru",
+											"ru/vkladki/vkladka-igry/upravlenie-igroi"
+										]
+									},
+									"ru/vkladki/settings-tab"
+								]
+							}
+						]
+					},
+					{
+						"dropdown": "API reference",
+						"description": "Reference for the API",
+						"icon": "terminal",
+						"groups": [{
+								"dropdown": "API documentation",
+								"pages": [
+									"api-reference/introduction"
+								]
+							},
+							{
+								"dropdown": "API Points",
+								"pages": [
+									"api-reference/endpoint/get",
+									"api-reference/endpoint/create",
+									"api-reference/endpoint/delete",
+									"api-reference/endpoint/webhook"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"logo": {
+		"light": "/assets/msbt_logo.png",
+		"dark": "/assets/msbt_logo.png"
+	},
+	"contextual": {
+		"options": [
+			"copy",
+			"view",
+			"chatgpt",
+			"perplexity"
+		]
+	},
+	"footer": {
+		"socials": {
+			"website": "https://msbt.lukiuwu.xyz",
+			"github": "https://github.com/MultiSavesBackupTool/MSBT"
+		}
+	}
 }
