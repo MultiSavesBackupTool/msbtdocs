@@ -53,16 +53,16 @@
 						"groups": [{
 								"dropdown": "API documentation",
 								"pages": [
-									"api-reference/index",
-                                    "api-reference/general-information"
+									"en/api-reference/index",
+                                    "en/api-reference/general-information"
 								]
 							},
 							{
 								"dropdown": "API Points",
 								"pages": [
-									"api-reference/api-points/blacklist",
-									"api-reference/api-points/whitelist",
-									"api-reference/api-points/gamesdetect"
+									"en/api-reference/api-points/blacklist",
+									"en/api-reference/api-points/whitelist",
+									"en/api-reference/api-points/gamesdetect"
 								]
 							}
 						]
