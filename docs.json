@@ -51,14 +51,14 @@
 						"description": "Reference for the API",
 						"icon": "terminal",
 						"groups": [{
-								"dropdown": "API documentation",
+								"group": "API documentation",
 								"pages": [
 									"en/api-reference/index",
                                     "en/api-reference/general-information"
 								]
 							},
 							{
-								"dropdown": "API Points",
+								"group": "API Points",
 								"pages": [
 									"en/api-reference/api-points/blacklist",
 									"en/api-reference/api-points/whitelist",
