@@ -110,6 +110,13 @@
 		]
 	},
 	"logo": "/msbt_logo.png",
+    "navbar": {
+      "primary": {
+        "type": "button",
+        "label": "V106 in live!",
+        "href": "https://github.com/MultiSavesBackupTool/MSBT/releases/latest"
+      }
+    },
 	"contextual": {
 		"options": [
 			"copy",
