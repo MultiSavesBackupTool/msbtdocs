@@ -3,6 +3,39 @@ title: "Changelog"
 description: "New updates and improvements"
 ---
 
+<Update label="v25.A.1.0">
+  🔝 September Feature:
+
+  > - Notification system in the app for tracking task completion 🔝
+  
+  ✔️ Added:
+
+  > - Save confirmation with dialog safety ✔️
+  > - Automatic log sending to Pastebin for easier debugging ✔️
+  > - Automatic cleaning of old log files (storage for 3 days) ✔️
+  > - "Edit logs" button in the mechanism for copying links to the clipboard ✔️
+  > - Check for backups before showing the restore button ✔️
+  > - Localization of new dialogs, confirmations and accounts ✔️
+
+  🛡 Fixed:
+
+  > - Duplicating variable in BooleanToStringConverter (value/value1) 🛡
+  > - UI blocking when saving games - moved to background tasks 🛡
+  > - Error handling when saving game configuration 🛡
+  > - Correct freeing of file stream resources (DisposeAsync) 🛡
+  > - Synchronization of service initialization in the main window 🛡
+  > - Exception handling when copying files in backups 🛡
+
+  ☄️ Optimized:
+
+  > - Batch file processing when creating archives (batches of 10 files) ☄️
+  > - Asynchronous file copying with batches of 5 files ☄️
+  > - Using ConfigureAwait(false) for better performance ☄️
+  > - Moving cleaning of old backups to a separate background task ☄️
+  > - Improved handling of timer events in monitoring ☄️
+  > - Optimization of file system operations via Task.Yield() ☄️
+</Update>
+
 <Update label="v106">
   ✔️ Added:
 
